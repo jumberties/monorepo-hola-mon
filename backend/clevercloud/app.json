@@ -1,0 +1,7 @@
+{
+  "deploy": {
+    "python_version": "3.11",
+    "addons": ["postgresql-addon"]
+  }
+}
+
