@@ -19,7 +19,7 @@ function App() {
   
   return (
     <div style={{ textAlign: 'center', marginTop: '4rem' }}>
-      <h1>React + FastAPI + PostgreSQL</h1>
+      <h1>Reactaaaaaaaaaaaaaa + FastAPI + PostgreSQL</h1>
       <p>{message}</p>
     </div>
   )
