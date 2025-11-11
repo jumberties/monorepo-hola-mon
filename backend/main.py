@@ -8,7 +8,11 @@ app = FastAPI(title="FastAPI + PostgreSQL a Clever Cloud")
 # --- Configurar CORS ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # En producció, posa aquí el domini del frontend
+    allow_origins=[
+        "https://app-00c13c71-60bc-477a-a86a-15e0af8af3ab.cleverapps.io",
+        "http://localhost:5173",
+    ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -1,0 +1,23 @@
+[33ma00c6e0[m Primer commit: Hola món FastAPI + React + PostgreSQL
+[33m6b2f6ca[m Neteja: exclou venv, node_modules i __pycache__
+[33mea157c5[m Desant canvis locals abans del rebase
+[33m249a42c[m Afegit clevercloud/python.json per Clever Cloud
+[33m05a5fac[m Modificat clevercloud/python.json per Clever Cloud
+[33m550671a[m Modificat python.json per Clever Cloud
+[33mb3ee93b[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33mf571453[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33ma517d4c[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33m15878ec[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33m4ebf1d7[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33mdd6ffbe[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33m75ca4be[m Actualitzat fitxer python.json dins clevercloud i eliminat l'antic de l'arrel
+[33mb77bb02[m modificada variable d'entorn de la base de dades per a que clevercloud la injecti bé
+[33m19f4974[m Afegit clevercloud/static.json per al frontend
+[33mb57d544[m Afegit .clever.json
+[33mdfbd3b1[m Afegit .clever.json
+[33ma82b028[m Afegit .clever.json
+[33mc7d9948[m Afegit .clever.json
+[33mc23413b[m Afegit .clever.json
+[33m0c9edcf[m vite.config.js
+[33m27435d2[m vite.config.js
+[33m95ae57d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Afegides variables d'entorn API_URL
