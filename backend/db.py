@@ -8,6 +8,7 @@ import time
 # --- Connexió flexible per Clever Cloud o local ---
 DATABASE_URL = (
     os.getenv("POSTGRESQL_ADDON_URI")  # Clever Cloud
+    or "postgresql://user:password@localhost:5432/testdb"  # Local
 )
 
 # --- Configuració SQLAlchemy ---
