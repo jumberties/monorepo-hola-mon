@@ -5,12 +5,8 @@ import axios from 'axios'
 function App() {
   const [message, setMessage] = useState('Carregant...')
   
-  // Detecta automàticament l'entorn
-  const API_URL = import.meta.env.VITE_API_URL || 
-    (import.meta.env.DEV 
-      ? 'http://localhost:8000'  // URL local del backend
-      : 'https://app-988a10f6-32df-4301-992f-53192fbeede8.cleverapps.io'  // URL producció
-    )
+  // Usa la variable d'entorn o localhost per defecte
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
   
   useEffect(() => {
     axios.get(`${API_URL}/api/message`)
@@ -20,9 +16,9 @@ function App() {
         setMessage('Error connectant amb el backend')
       })
   }, [])
-
+  
   return (
-    <div>
+    <div style={{ textAlign: 'center', marginTop: '4rem' }}>
       <h1>React + FastAPI + PostgreSQL</h1>
       <p>{message}</p>
     </div>
