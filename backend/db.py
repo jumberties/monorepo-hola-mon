@@ -7,7 +7,7 @@ import time
 
 # --- Connexió flexible per Clever Cloud o local ---
 DATABASE_URL = (
-    os.getenv("CC_POSTGRESQL_ADDON_URI")  # Clever Cloud
+    os.getenv("POSTGRESQL_ADDON_URI")  # Clever Cloud
     or os.getenv("DATABASE_URL")          # Altres entorns (Heroku, etc.)
     or "postgresql://user:password@localhost:5432/testdb"  # Local
 )
